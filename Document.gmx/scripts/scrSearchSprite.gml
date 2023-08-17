@@ -1,0 +1,12 @@
+if argument0=sprEWalkShotgun return sprESearchShotgun
+if argument0=sprEWalkHK417 return sprESearchHK417
+if argument0=sprEWalkDoubleBarrel return sprESearchDoubleBarrel
+if argument0=sprEWalkKnife return sprESearchKnife
+if argument0=sprEWalkBat return sprESearchBat
+if argument0=sprEWalkClub return sprESearchClub
+if argument0=sprEWalkChain return sprESearchChain
+if argument0=sprEWalkPipe return sprESearchPipe
+if argument0=sprEWalkSilencer return sprESearchSilencer
+
+if argument0=sprEFatWalk return sprESearchFat
+return argument0

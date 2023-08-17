@@ -1,0 +1,9 @@
+if argument0 = 1 return sprPWalkShotgun
+if argument0 = 12 return sprPWalkMP5
+if argument0 = 26 return sprPWalkAK
+if argument0 = 0 return sprPWalkHK417
+if argument0 = 41 return sprPWalkThompson
+if argument0 = 43 return sprPWalkCrossbow
+if argument0 = 6 return sprPWalkDoubleBarrel
+if argument0 = 52 return sprPWalkDesertEagle
+if argument0 = 64 return sprPWalkPatriot

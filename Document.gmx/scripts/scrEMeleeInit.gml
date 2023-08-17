@@ -1,0 +1,21 @@
+reload=0
+alert=0
+checkreload=random(30)
+path=path_add()
+path_set_closed(path,false)
+check=1
+startx=x
+starty=y
+startdir=direction
+image_speed=0
+returning=0
+armed=1
+speed=1
+turn=0
+diradd=1
+alertwait=-1
+ammo=0
+energie = 2
+dropped = 0
+hits = 4
+flash = false

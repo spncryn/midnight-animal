@@ -1,0 +1,9 @@
+if argument0 = 1 return sprPTurnShotgun
+if argument0 = 12 return sprPTurnMP5
+if argument0 = 52 return sprPTurnDesertEagle
+if argument0 = 26 return sprPTurnAK
+if argument0 = 0 return sprPTurnHK417
+if argument0 = 64 return sprPTurnPatriot
+if argument0 = 41 return sprPTurnThompson
+if argument0 = 43 return sprPTurnCrossbow
+if argument0 = 6 return sprPTurnDoubleBarrel

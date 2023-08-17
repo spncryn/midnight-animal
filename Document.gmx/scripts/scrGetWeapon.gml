@@ -1,0 +1,108 @@
+/// scrGetWeapon(index)
+
+// Drop current weapon.
+with objPlayer {
+    lastweapon = scrCurrentWeaponExt(objPlayer.sprite_index)
+    lastammo = ammo
+    scrThrowWeapon()
+}
+
+sound_ps(sndPickUpWeapon)
+if argument0=0 objPlayer.sprite_index=sprPWalkHK417
+if argument0=1 objPlayer.sprite_index=sprPWalkShotgun
+if argument0=2 objPlayer.sprite_index=sprPWalkClub
+if argument0=3 objPlayer.sprite_index=sprPWalkPipe
+if argument0=4 objPlayer.sprite_index=sprPWalkBat
+if argument0=5 objPlayer.sprite_index=sprPWalkKnife
+if argument0=6 objPlayer.sprite_index=sprPWalkDoubleBarrel
+if argument0=7 objPlayer.sprite_index=sprPWalkSilencer
+if argument0=8 objPlayer.sprite_index=sprPWalkKatana
+if argument0=9 objPlayer.sprite_index=sprPWalkUzi
+if argument0=10 objPlayer.sprite_index=sprPWalkMagnum
+if argument0=11 objPlayer.sprite_index=sprPWalkScorpion
+if argument0=12 objPlayer.sprite_index=sprPWalkMP5
+if argument0=13 objPlayer.sprite_index=sprPWalkPool
+if argument0=14 objPlayer.sprite_index=sprPWalkM16
+if argument0=15 objPlayer.sprite_index=sprPWalkAxe
+if argument0=16 objPlayer.sprite_index=sprPWalkNightStick
+if argument0=17 objPlayer.sprite_index=sprPWalkCrowbar
+if argument0=18 objPlayer.sprite_index=sprPWalkMachete
+if argument0=19 objPlayer.sprite_index=sprPWalkSledgeHammer
+if argument0=20 objPlayer.sprite_index=sprPWalkTrophy
+if argument0=21 objPlayer.sprite_index=sprPWalkDrill
+if argument0=22 objPlayer.sprite_index=sprPWalkPan
+if argument0=23 objPlayer.sprite_index=sprPWalkBoilingPot
+if argument0=24 objPlayer.sprite_index=sprPWalkPot
+if argument0=25 objPlayer.sprite_index=sprPWalkIngram
+if argument0=26 objPlayer.sprite_index=sprPWalkAK
+if argument0=27 objPlayer.sprite_index=sprPWalkHandgun
+if argument0=28 objPlayer.sprite_index=sprPWalkFlamethrower
+if argument0=29 objPlayer.sprite_index=sprPWalkSniper
+if argument0=30 objPlayer.sprite_index=sprPWalkSilencedShotgun
+if argument0=31 objPlayer.sprite_index=sprPWalkChainsaw
+if argument0=32 objPlayer.sprite_index=sprPWalkSuppressedMG
+if argument0=33 objPlayer.sprite_index=sprPWalkNailGun
+if argument0=34 objPlayer.sprite_index=sprPWalkChain
+if argument0=35 objPlayer.sprite_index=sprPWalkCleaver
+if argument0=36 objPlayer.sprite_index=sprPWalkFlareGun
+if argument0=37 objPlayer.sprite_index=sprPWalkSkateboard
+if argument0=38 { objPlayer.sprite_index=sprPWalkRealizer sound_ps(sndRealizerPickUp) }
+if argument0=39 objPlayer.sprite_index=sprPWalkArm
+if argument0=40 objPlayer.sprite_index=sprPWalkBust
+if argument0=41 objPlayer.sprite_index=sprPWalkThompson
+if argument0=42 objPlayer.sprite_index=sprPWalkLMG
+if argument0=43 objPlayer.sprite_index=sprPWalkCrossbow
+if argument0=44 objPlayer.sprite_index=sprPWalkGuitar
+if argument0=45 objPlayer.sprite_index=sprPWalkGarand
+if argument0=46 objPlayer.sprite_index=sprPWalkScythe
+if argument0=47 objPlayer.sprite_index=sprPWalkAutoShotgun
+if argument0=49 objPlayer.sprite_index=sprPWalkWA2000
+if argument0=50 objPlayer.sprite_index=sprPWalkHammer
+if argument0=51 objPlayer.sprite_index=sprPWalkWrench
+if argument0=52 objPlayer.sprite_index=sprPWalkDesertEagle
+if argument0=53 objPlayer.sprite_index=sprPWalkCircularSaw
+if argument0=54 objPlayer.sprite_index=sprPWalkKSG
+if argument0=55 objPlayer.sprite_index=sprPWalkFMG
+//if argument0=56 objPlayer.sprite_index=sprPWalkHatchet
+if argument0=57 objPlayer.sprite_index=sprPWalkAJM
+if argument0=58 objPlayer.sprite_index=sprPWalkMultiplas
+if argument0=59 objPlayer.sprite_index=sprPWalkDisruptor
+if argument0=60 objPlayer.sprite_index=sprPWalkM79
+if argument0=61 objPlayer.sprite_index=sprPWalkMGL
+if argument0=62 objPlayer.sprite_index=sprPWalkMauser
+if argument0=63 objPlayer.sprite_index=sprPWalkRPG
+if argument0=64 { objPlayer.sprite_index=sprPWalkPatriot sound_ps(sndPatriotPickUp) }
+if argument0=65 objPlayer.sprite_index=sprPWalkBong
+//if argument0=66 objPlayer.sprite_index=sprPWalkBattleAxe
+if argument0=67 objPlayer.sprite_index=sprPWalkShovel
+//if argument0=68 objPlayer.sprite_index=sprPWalkSAA
+if argument0=69 objPlayer.sprite_index=sprPWalkSawedOff
+if argument0=70 objPlayer.sprite_index=sprPWalkBottle
+if argument0=71 objPlayer.sprite_index=sprPWalkIthaca
+if argument0=72 objPlayer.sprite_index=sprPWalkHysteria
+if argument0=73 objPlayer.sprite_index=sprPWalkBow
+if argument0=74 objPlayer.sprite_index=sprPWalkBrick
+if argument0=75 objPlayer.sprite_index=sprPWalkBigPipe
+if argument0=76 objPlayer.sprite_index=sprPWalkFAMAE
+if argument0=77 objPlayer.sprite_index=sprPWalkFAL
+if argument0=78 objPlayer.sprite_index=sprPWalk1887
+if argument0=79 objPlayer.sprite_index=sprPWalkHalberd
+if argument0=80 objPlayer.sprite_index=sprPWalkLeviathan
+if argument0=81 objPlayer.sprite_index=sprPWalkLongSword
+if argument0=82 objPlayer.sprite_index=sprPWalkMace
+//if argument0=83 objPlayer.sprite_index=sprPWalkExtinguisher
+if argument0=84 objPlayer.sprite_index=sprPWalkScrewdriver
+//if argument0=85 objPlayer.sprite_index=
+if argument0=86 objPlayer.sprite_index=sprPWalkBag
+//if argument0=87 objPlayer.sprite_index=sprPWalkStunBaton
+//if argument0=88 objPlayer.sprite_index=sprPWalkFish
+//if argument0=89 objPlayer.sprite_index=sprPWalkPitchfork
+//if argument0=90 objPlayer.sprite_index=sprPWalkSign
+//if argument0=91 objPlayer.sprite_index=sprPWalkShears
+//if argument0=92 objPlayer.sprite_index=sprPWalkAcidSoaker
+if argument0=93 objPlayer.sprite_index=sprPWalkScissors
+//if argument0=94 objPlayer.sprite_index=sprPWalkWaterPistol
+//if argument0=95 objPlayer.sprite_index=sprPWalkWaterShotgun
+//if argument0=96 objPlayer.sprite_index=sprPWalkWaterLauncher
+//if argument0=97 objPlayer.sprite_index=sprPWalkWaterSniper
+if argument0=98 objPlayer.sprite_index=sprPWalkWaterCannon
